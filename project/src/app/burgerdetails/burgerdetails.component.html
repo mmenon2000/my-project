@@ -1,0 +1,33 @@
+<body>
+        <div id="cart" (click)="showCart()">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="shopping_cart" [matBadge]="this.cart.length" matBadgeColor="warn"></mat-icon>
+        </div>
+        <div class="card-burger">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hamburger_%28black_bg%29.jpg/800px-Hamburger_%28black_bg%29.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Veg Burger</h1>
+            <p class="price">Rs.150</p>
+            <p>Delicious Veg Burger</p>
+            <p><button (click)="addToCart('Veg Burger', 150)">Add to Cart</button></p>
+          </div>
+          <div class="card-sandwich">
+            <img src="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width:100%">
+            <h1>Sandwich</h1>
+            <p class="price">Rs.130</p>
+            <p></p>
+            <p><button (click)="addToCart('Sandwich', 130)" >Add to Cart</button></p>
+          </div>
+          <div id="cart-details">
+            <div *ngIf="cart.length == 0">
+                Cart is Empty
+            </div>
+            <div *ngFor="let item of cartItems | keyvalue">
+                <b>{{item.key}}</b> - <b>{{item.value}}</b>
+            </div>
+            <br/>
+            <div *ngIf="cart.length != 0">
+            <b>Total Amount: {{this.cartAmount}}</b>
+            <br/>
+            <button  [routerLink]="'/paymentdetails'">Checkout</button>
+            </div>
+          </div>
+   </body>

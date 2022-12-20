@@ -1,0 +1,25 @@
+.form-box{
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    background-color: wheat;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%; 
+}
+
+#alert-box{
+    color: red;
+    display: none;
+    position: absolute;
+    left: 47%;
+    top: 80%;
+}
+.container{
+    background: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

@@ -1,0 +1,46 @@
+{
+  "signup": [
+    {
+      "fname": "a",
+      "lname": "a",
+      "email": "a@a.com",
+      "password": "aa",
+      "id": 1
+    },
+    {
+      "fname": "az",
+      "lname": "aa",
+      "email": "aaaa@aaaa.com",
+      "id": 2,
+      "password": "asasasas"
+    },
+    {
+      "fname": "anuj",
+      "lname": "gupta",
+      "email": "ag@gmail.com",
+      "id": 5,
+      "password": ""
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": "a@a.com",
+      "password": null,
+      "id": 6
+    },
+    {
+      "fname": "a",
+      "lname": "a",
+      "email": "aaaa@a.com",
+      "password": "A",
+      "id": 7
+    },
+    {
+      "fname": "za",
+      "lname": "za",
+      "email": "za@za.com",
+      "password": "Zaa1",
+      "id": 10
+    }
+  ]
+}

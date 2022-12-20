@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .nav-item1{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+.nav-item2{
+    position: absolute;
+    top: 8px;
+    right: 100px;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .a{
+    color: antiquewhite;
+  }
+  .a:active{
+    color:antiquewhite;
+  }
+  .nav-link{
+    font: 400 14px/20px Roboto, "Georgia", sans-serif;
+    font-size: 20px;
+    color:beige;
+}
+#imgz {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.heading-text{
+  font-size: 5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

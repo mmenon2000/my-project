@@ -1,0 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="container" [hidden]="showOutlet">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Snow" style="width:100%;">
+    <ul class="nav nav-tabs">
+        <li class="nav-item1">
+          <a class="nav-link" [routerLink]="'/login'">Login</a>
+        </li>
+        <li class="nav-item2">
+          <a class="nav-link" [routerLink]="'/signup'">SignUp</a>
+      </ul>
+      <div class="centered heading-text">Bell and Peppers</div>
+  </div>
+<router-outlet (activate)="onActivate($event)" (deactivate)="onDeactivate($event)"></router-outlet>
